@@ -1,0 +1,28 @@
+﻿<div class="col-md-12">
+    <h1>Hi {{currentUser.fullname}}!</h1>
+      <p></p>
+    <span><a [routerLink]="['/login']">Logout</a></span>
+    <h3>All Registered Users List:</h3>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Full name</th>
+          <th scope="col">Email</th>
+          <th scope="col">User name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users let i = index">
+          <td>{{i+1}}</td>
+          <td>{{user.fullName}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.username}}</td>
+          <td>{{user.phone}}</td>
+          <td>{{user.country}}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>

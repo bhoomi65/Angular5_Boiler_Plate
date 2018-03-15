@@ -2,6 +2,8 @@
     id: number;
     username: string;
     password: string;
-    firstName: string;
-    lastName: string;
+    fullName: string;
+    email: string;
+    country : string;
+    Phone :string;
 }

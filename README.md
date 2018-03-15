@@ -1,5 +1,5 @@
-# Angular2-BoilerPlate
-It's Angular 2 quickstart project as a base for the application, it's written in TypeScript and uses systemjs for loading modules and  fake backend that stores users in HTML5 local storage
+# Angular5-BoilerPlate
+It's Angular 5 quickstart project as a base for the application, it's written in TypeScript and uses systemjs for loading modules and  fake backend that stores users in HTML5 local storage
 
 ### Usage
 - Clone or fork this repository
